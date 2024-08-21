@@ -1,0 +1,35 @@
+/* Write CSS code here */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: purple;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch-container {
+    text-align: center;
+    background-color: bl;
+}
+#stopwatch {
+    font-size: 50px;
+    margin-bottom:  20px;
+    color: white;
+    border: 5px solid white;
+    padding: 20px;
+    background-color: black;
+}
+button {
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    background: green;
+    font-weight: 600;
+    font-size: large;
+    margin: 5px;
+}
+button:hover {
+    background-color: white;
+    color: green;
+}
