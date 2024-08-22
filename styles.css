@@ -2,11 +2,24 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
-    background: purple;
+    background: rgb(255, 255, 255);
     height: 100vh;
+}
+section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#navigation-content {
+    background-color: gold;
+    font-size: 30px;
+    color: white;
+    align-content: flex-start;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .stopwatch-container {
     text-align: center;
@@ -24,12 +37,12 @@ button {
     cursor: pointer;
     padding: 15px;
     color: white;
-    background: green;
+    background: gold;
     font-weight: 600;
     font-size: large;
     margin: 5px;
 }
 button:hover {
     background-color: white;
-    color: green;
+    color: gold;
 }
